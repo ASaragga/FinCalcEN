@@ -39,6 +39,7 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
       rb-kqueue (>= 0.2)
+    middleman (>= 4.4.2)
     maruku (0.6.1)
       syntax (>= 1.0.0)
     posix-spawn (0.3.6)
