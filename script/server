@@ -8,6 +8,7 @@
 set -e
 cd $(dirname "$0")/..
 
+bundle install
 script/bootstrap && bundle exec foreman start
 exit=$?
 exit $exit
