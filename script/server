@@ -9,6 +9,6 @@ set -e
 cd $(dirname "$0")/..
 
 bundle install
-script/bootstrap && bundle exec foreman start
+script/bootstrap && bundle exec foreman start && bundle exec middleman build
 exit=$?
 exit $exit
